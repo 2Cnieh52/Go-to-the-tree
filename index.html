@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,24 +9,141 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     <title>Go to the tree</title>
+    <link rel="icon" type="image/png" href="icone jogo.png">
 </head>
+
+
 <body>
     <main>
-    
+
+
+
+
+
         <div class="passo ativo" id="passo-0">
-        <img src="">
-        <p>Em um mundo diferente  da realidade, existe um pequeno vilarejo com criaturas mágicas conhecidas como fadas, doces criaturas que viviam em harmonia.</p> 
-        <button class="btn-proximo" data-proximo="1">próximo</button> 
+            <p>Em um mundo diferente da realidade, existe um pequeno vilarejo com criaturas magicas conhecidas como
+                fadas, doces criaturas que viviam em harmonia.</p>
+            <button class="btn-proximo" data-proximo="1">Próximo</button>
         </div>
 
         <div class="passo" id="passo-1">
-            <p>Nesse pequeno local havia uma dupla de irmãos que viviam sozinhos, mas que eram cuidados pelas outras fadas. Seu pai está desaparecido por muito tempo, e ambos só tem um ao outro.</p> 
-            <p>Escolha um dos personagens para guiar nessa aventura:</p>
-        <button class="btn-proximo" data-proximo="2">Feminino:Aurora</button>
-        <button class="btn-proximo" data-proximo="3">Masculino:Arion</button>
-       </div>
+            <p>Nesse pequeno local havia uma dupla de irmãos que viviam sozinhos, eles eram cuidados pelas outras fadas.
+                Seu pai está desaparecido por muito tempo, e ambos só têm um ao outro.<br>
+                Escolha um dos personagens para te guiar nessa aventura:</p>
+
+            <button class="btn-proximo" data-proximo="2">Aurora</button>
+            <button class="btn-proximo" data-proximo="3">Arion</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Um dia seu irmão, Arion, desapareceu na floresta enquanto vocês caminhavam juntos na busca de alimentos
+                que a floresta mágica oferecia. No começo, seu desespero foi grande, mas depois de pensar com calma se
+                sentiu determinada. Sempre muito corajosa, voltou para casa e se preparou para essa jornada. Saiu no
+                meio da noite, pronta para encontrá-lo a qualquer custo.</p>
+            <button class="btn-proximo" data-proximo="4">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Um dia sua irmã, Aurora, desapareceu enquanto explorava uma parte da floresta que nenhum ser mágico
+                ousava
+                entrar. Mesmo você sendo uma criança medrosa, decidiu ir em busca dela.</p>
+            <button class="btn-proximo" data-proximo="5">Avisar alguém sobre sua busca deixando uma carta</button>
+            <button class="btn-proximo" data-proximo="6">Ir sem se preocupar com as outras fadas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Assim, adentrou novamente a floresta mágica, onde as árvores murmuravam segredos e as flores brilhavam à
+                luz da lua.</p>
+            <button class="btn-proximo" data-proximo="7">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você pegou uma pena e um papiro, deixando uma mensagem. Logo saiu de casa com suas coisas e deixou a
+                mensagem na porta da fada guardiã. E assim partiu para o meio da floresta encantada</p>
+            <button class="btn-proximo" data-proximo="7">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você pegou suas coisas e saiu escondido no meio da noite, enquanto a vila estava adormecida</p>
+            <button class="btn-proximo" data-proximo="7"></button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Começando a caminhar pela floresta, você encontra um rastro mágico, que se assemelha a um pó reluzente.
+                Todas as fadas deixam sua magia por onde vão. Há dois caminhos com rastros, por onde você seguirá?</p>
+            <button class="btn-proximo" data-proximo="8">Seguir pela esquerda. O caminho acompanhado por uma trilha de
+                madeira e os rastros</button>
+            <button class="btn-proximo" data-proximo="9">Seguir para a direita. O caminho que só tinha os pequenos
+                brilhos da magia de fada</button>
+        </div>
+
+
+        <div class="passo" id="passo-8"><!--esquerda-->
+            <p>Depois de uma boa analise você pegou sua lanterna e seguiu pela trilha de madeira. Enquanto caminhava,
+                você observou ao seu redor e notou a escuridão que começava a te cercar. Felizmente você tinha uma
+                lanterna, porque nem mesmo a luz da lua poderia iluminar sua trilha.</p>
+            <button class="btn-proximo" data-proximo="10">Próximo</button>
+        </div>
+
+
+        <div class="passo" id="passo-9"><!--direita-->
+            <p>Você dava pequenos passos e quanto mais se
+                aproximava, mais a luz da lua parecia te acompanhar. A trilha era ambientada por um barulho
+                que aumentava a cada passo.</p>
+            <button class="btn-proximo" data-proximo="11">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-10"><!--esquerda-->
+            <p>As árvores finas se retorciam, a luz da lanterna começava a falhar quando você notou um ruído.
+                Cuidadosamente checando ao redor, você percebeu um arbusto com frutinhas redondas e vermelhas.</p>
+            <button class="btn-proximo" data-proximo="12">Investigar</button>
+            <button class="btn-proximo" data-proximo="14">Seguir em frente</button>
+
+        </div>
+        <div class="passo" id="passo-11"><!--direita-->
+            <p>Assim que chegou onde o barulho ecoava como um estrondo, viu que era apenas um caminho fechado com uma
+                cachoeira que banhava o grande rio a sua frente.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar para o outro caminho</button>
+            <button class="btn-proximo" data-proximo="15">Explorar</button>
+
+        </div>
+
+        <div class="passo" id="passo-12"><!--esquerda-->
+            <p>Ao investigar o arbusto, imagina que as frutinhas são inofencivas. Ao colhê-las, você escuta barulhos
+                estranhos, semelhantes a galhos quebrando. Você vê o pequeno topo de um triangulo vermelho saindo do
+                arbusto, que depois percebe ser feito de um tecido mágico. Subindo cada vez mais, você vê um rosto
+                aparecendo embaixo do que descobriu ser um gorro vermelho. </p>
+            <button class="btn-proximo" data-proximo="13">Próximo</button>
+        </div>
+
+
+        <div class="passo" id="passo-13"><!--esquerda-->
+            <p>Usando a lanterna para iluminá-lo, você encontra um gnomo, que parece tão assustado quanto você. </p>
+            <button class="btn-proximo" data-proximo="16">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-14"><!--esquerda (seguir em frente)-->
+            <p>Seguindo em frente, existem barulhos a sua volta. Segurando a lanterna, você ilumina o chão, e nota
+                pegadas que te cercam. Você continua andando, com medo do que pode acontecer. Mais rápido do que
+                qualquer fada poderia andar, você enxerga uma sombra mais densa que todas as outras na floresta.</p>
+            <button class="btn-proximo" data-proximo="13">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <p>Você olha em volta, mas não encontra nada a não ser água cintilante e muitas variedades de plantas
+                mágicas.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar para o outro caminho</button>
+        </div>
+
+
+        <div class="passo" id="passo-16"><!--TELA DE MAIS ATUALIZAÇÕES EM BREVE-->
+            <H1 class="teladecontinua" style="font-size: 40px;">CONTINUA...</H1>
+        </div>
+
+
     </main>
 
     <script src="script.js"></script>
 </body>
+
 </html>

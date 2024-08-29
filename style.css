@@ -1,18 +1,19 @@
 body{
-    background-color: black; 
-    color: white; 
+    background-color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0); 
     font-family: "Pixelify Sans", sans-serif; 
     display: flex; 
     justify-content: center;
-    align-items: center;
-    height: 700px;
-    margin: 0;
+    margin: 100px 200px 0px 200px;
 }
 
 button{
-    background-color: #C7C0B6;
+    background-color: #472e0a;
+    border: black;
     color: white; 
     font-family: "Roboto Mono", monospace;
+    margin: 30px 20px 0 0;
+    padding: 10px;
 }
 
 .passo {
