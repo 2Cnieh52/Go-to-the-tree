@@ -1,3 +1,5 @@
+/*NOEMI GOMES DE OLIVEIRA _ 2c. 21/08/24*/
+
 const avanca = document.querySelectorAll('.btn-proximo');
 
 avanca.forEach(button => {
@@ -9,3 +11,4 @@ avanca.forEach(button => {
         document.getElementById(proximoPasso).classList.add('ativo');
     })
 })
+
